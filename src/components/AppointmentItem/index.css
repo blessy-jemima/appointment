@@ -1,0 +1,37 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  height: 80px;
+  width: 260px;
+  margin-right: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.list-title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.list-para {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.list-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.star-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}

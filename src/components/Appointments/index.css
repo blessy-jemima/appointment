@@ -1,0 +1,123 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 600px;
+  width: 1100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-heading {
+  color: #171f46;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+::placeholder {
+  color: #b5b7c4;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+
+.input {
+  color: #171f46;
+  font-size: 17px;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid #b5b7c4;
+  padding: 10px;
+}
+
+.submit-button {
+  border: none;
+  background-color: #8b5cf6;
+  font-family: 'Roboto';
+  color: #ffffff;
+  height: 25px;
+  width: 70px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.app-image {
+  height: 300px;
+  width: 400px;
+}
+
+.star-button {
+  height: 30px;
+  width: 80px;
+  font-family: 'Roboto';
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+.starred-button {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.separator {
+  width: 85%;
+  color: #b5b7c4;
+  size: 10;
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.appointment-list-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.appointment-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-heading {
+  color: #171f46;
+  font-size: 23px;
+  font-family: 'Roboto';
+  margin-left: 80px;
+}
